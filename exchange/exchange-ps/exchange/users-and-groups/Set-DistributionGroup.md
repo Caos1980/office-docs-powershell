@@ -1516,9 +1516,9 @@ Accept wildcard characters: False
 ### -SendOofMessageToOriginatorEnabled
 The SendOofMessageToOriginatorEnabled parameter specifies how to handle out of office (OOF) messages for members of the group. Valid values are:
 
-- $true: When messages are sent to the group, OOF messages for any of the group members are sent to the message sender. This is the default value.
+- $true: When messages are sent to the group, OOF messages for any of the group members are sent to the message sender.
 
-- $false: When messages are sent to the group, OOF messages for any of the group members aren't sent to the message sender.
+- $false: When messages are sent to the group, OOF messages for any of the group members aren't sent to the message sender. This is the default value.
 
 ```yaml
 Type: $true | $false
@@ -1527,7 +1527,7 @@ Aliases:
 Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Online, Exchange Online Protection
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
